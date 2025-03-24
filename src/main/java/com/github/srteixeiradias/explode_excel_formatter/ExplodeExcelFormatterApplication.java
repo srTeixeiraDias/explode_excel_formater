@@ -25,7 +25,7 @@ public class ExplodeExcelFormatterApplication {
 		String outputPath = scanner.nextLine();
 		File outputFile = new File(outputPath);
 
-		
+
 		ExcelReader excelReader = new ExcelReader();
 		ExcelWriter excelWriter = new ExcelWriter();
 		ExcelProcessorService excelProcessorService = new ExcelProcessorService(excelReader, excelWriter);
