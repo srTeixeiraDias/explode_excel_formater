@@ -1,0 +1,4 @@
+spring:
+  application:
+  name: explode_excel_formatter
+  developer: https://github.com/srTeixeiraDias
